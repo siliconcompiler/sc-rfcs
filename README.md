@@ -1,23 +1,22 @@
 # SiliconCompiler RFCs
 
-Changes that break API incompatibility and changes that are fundamental enough
-to necessitate anaytical discussion before implementation work begins should
-be submitted through this repository as an "RFC" (request for comment).
-The RFC process is literally as old as the internet itself, getting its start
-through the [ARPANET program](https://en.wikipedia.org/wiki/Request_for_Comments).
+Changes visible to the user and/or fundamental architecture decisions that warrant
+a broad discussion should be submitted through this repository as an "RFC" (request
+for comment). The RFC process is literally as old as the internet itself, getting
+its start through the [ARPANET program](https://en.wikipedia.org/wiki/Request_for_Comments).
 
-An RFC documents proposes a new feature to the developer community. The RFC should include
-a cleare technical specification and a compelling rationale.
+An RFC documents proposes a new feature to the developer community. The RFC should
+include a clear technical specification and a compelling rationale.
 
 
-## Do I need to submitt an RFC?
+## Do I need to submit an RFC?
 
-RFC:
+Yes:
   * Any functional change to the schema (ie. excluding documentation)
-  * Any change that breaks compatility (removing features, semantic, syntax changes)
+  * Any change that breaks compatibility (removing features, semantic, syntax changes)
   * Any feature addition visible to SC users
 
-No RFC:
+No:
   * Changes that are invisible to SC users (refactoring, reorg)
   * Qualitative changes (performance, logging, warning messages)
   * Bug fixes
@@ -45,7 +44,7 @@ comments.
 7. An RFC may be rejected by the team after public discussion has settled
 and comments have been made summarizing the rationale for rejection. A member of
 the team should then close the RFCs associated pull request.
-8. If accepeted, a team member will merge the RFCs associated pull request,
+8. If accepted, a team member will merge the RFCs associated pull request,
 at which point the RFC will become 'active'.
 9. Once an RFC becomes active, then authors may implement it and submit the
 feature as a pull request to the SiliconCompiler repo. Becoming 'active' is not a rubber
@@ -60,5 +59,5 @@ an officially supported feature of the SiliconCompiler project.
 
 SiliconCompiler owes its inspiration to the Python and Rust RFC processes:
 
-[Python PEP process]: https://www.python.org/dev/peps/pep-0001
-[Rust RFC process]: https://github.com/rust-lang/rfcs
+[Python PEP process](https://www.python.org/dev/peps/pep-0001)
+[Rust RFC process](https://github.com/rust-lang/rfcs)
